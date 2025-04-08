@@ -7,7 +7,6 @@ import requests
 from io import BytesIO
 import streamlit as st
 
-## LOAD DATA DIRECTLY FROM SS WEBSITE
 @st.cache_data
 def load_name_data():
     names_file = 'https://www.ssa.gov/oact/babynames/names.zip'
